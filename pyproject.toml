@@ -1,0 +1,18 @@
+[project]
+name = "perla-tonetti-waugh"
+version = "0.1.0"
+description = "Corrigendum numerics and replication for Perla, Tonetti, and Waugh (AER)"
+requires-python = ">=3.13"
+dependencies = [
+    "numpy>=2.4.6",
+    "scipy>=1.17.1",
+    "matplotlib>=3.10.9",
+    "pandas>=3.0.3",
+    "jax>=0.11.0",
+    "optimistix>=0.1.0",
+    "lineax>=0.1.1",
+    "jsonargparse[all]>=4.50.0",
+]
+
+[tool.uv]
+package = false
